@@ -8,5 +8,6 @@ namespace PRM.API.Data
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
 
         public DbSet<Post> Posts { get; set; } = null!;
+        public DbSet<Movie> Movies { get; set; } = null!;
     }
 }
