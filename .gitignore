@@ -1,0 +1,43 @@
+# Backend (.NET)
+backend/bin/
+backend/obj/
+backend/.vs/
+backend/*.csproj.user
+backend/appsettings.Development.json
+backend/Migrations/
+
+# Frontend (Node.js)
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/dist/
+frontend/build/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+dotnet.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Database
+*.db
+*.sqlite
+postsdb.backup
+
+# Docker
+.dockerignore
+docker-compose.override.yml
